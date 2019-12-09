@@ -3,7 +3,7 @@ from datetime import datetime
 import shutil
 import argparse
 
-parser = argparse.ArgumentParser(description="Sort photos/videos given into folders by years/months")
+parser = argparse.ArgumentParser(description="""Sort photos/videos given into folders by years/months.""")
 parser.add_argument("input_dir", help="A path to directory containing photos/videos to be sorted", type=str)
 parser.add_argument("-o", "--output_dir", help="A path to directory to store the sorted folders of photos/videos",
                     type=str)
